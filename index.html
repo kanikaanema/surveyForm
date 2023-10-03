@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h2 class="head">FORM:</h2>
+        </div><hr>
+        <div class='headings'>
+            <h2>NAME</h2>
+        </div>
+        <form action="post">
+            <div class="form-elem">
+
+                <label for="username" class="input-head">Enter your username</label>
+                <br>
+                <input type="text" name="username" placeholder="enter your username" id="username">
+            </div>
+
+
+
+            <div class="headings">
+                <h2>Personal details</h2>
+            </div>
+            <div class="form-elem">
+                <label for="male" class="input-head">male</label>
+                <input type="radio" name="male" id="male" value="male"><br>
+
+                <label for="female" class="input-head">female</label>
+                <input type="radio" name="female" id="female" value="female"><br>
+
+                <label for="other" class="input-head">other</label>
+                <input type="radio" name="other" id="other" value="other">
+            </div>
+
+
+            <div class="headings">
+                <h2>Address</h2>
+            </div>
+            <div class="form-elem">
+                <div class="form-elem-sub">
+                    <label for="Address1" class="input-head">Street Address1</label><br>
+                    <input type="text" id="street-address" placeholder="enter your address" name="address">
+                </div>
+
+
+                <div class="form-elem-sub">
+                    <label for="Address2" class="input-head">Street Address2</label><br>
+                    <input type="text" id="street-address" placeholder="enter your address" name="address">
+                </div>
+
+                <div class="form-elem-sub">
+                    <label for="city" class="input-head">City</label><br>
+                    <input type="text" id="city" placeholder="enter your city" name="address">
+                </div>
+
+                <div class="form-elem-sub">
+                    <label for="state" class="input-head">State</label><br>
+                    <input type="text" id="state" placeholder="enter your state" name="address">
+                </div>
+
+                <div class="form-elem-sub">
+                    <label for="Pin" class="input-head">Pin</label><br>
+                    <input type="number" id="Pin" placeholder="enter your pin" name="address">
+
+                </div>
+
+
+                <div class="form-elem-sub">
+                    <select name="country" id="country-name">
+                        <option value="india">India</option>
+                        <option value="australia">Australia</option>
+                        <option value="afganistan">Afganistan</option>
+                        <option value="china">China</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="zambia">Zambia</option>
+
+                    </select><br>
+                    <label for="country-name" class="input-head">Country Name</label><br>
+                </div>
+            </div>
+
+
+
+            <div class="'headings">
+                <h2>Personal Details</h2>
+            </div>
+            <div class="form-elem">
+                <div class="form-elem-sub">
+                    <label for="email" class="input-head">E-mail</label>
+                    <input type="text" name="email" placeholder="enter your email" id="email">
+                </div>
+
+                <div class="form-elem-sub">
+                    <label for="phone-number" class="input-head">Phone</label>
+                    <input type="text" name="phone" placeholder="enter your pnone" id="phone number">
+                </div>
+            </div>
+
+            
+                <button class="submit-btn">SUBMIT</button>
+            
+
+
+        </form>
+    </div>
+</body>
+
+</html>
